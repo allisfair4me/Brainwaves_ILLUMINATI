@@ -1,7 +1,7 @@
 /****************************************************************************
 ** Meta object code from reading C++ file 'empinfo.h'
 **
-** Created: Sat 8. Nov 23:07:29 2014
+** Created: Sun 9. Nov 06:17:13 2014
 **      by: The Qt Meta Object Compiler version 62 (Qt 4.7.4)
 **
 ** WARNING! All changes made in this file will be lost!
@@ -23,7 +23,7 @@ static const uint qt_meta_data_EmpInfo[] = {
        5,       // revision
        0,       // classname
        0,    0, // classinfo
-       2,   14, // methods
+       3,   14, // methods
        0,    0, // properties
        0,    0, // enums/sets
        0,    0, // constructors
@@ -33,6 +33,7 @@ static const uint qt_meta_data_EmpInfo[] = {
  // slots: signature, parameters, type, tag, flags
        9,    8,    8,    8, 0x08,
       33,    8,    8,    8, 0x08,
+      59,    8,    8,    8, 0x08,
 
        0        // eod
 };
@@ -40,6 +41,7 @@ static const uint qt_meta_data_EmpInfo[] = {
 static const char qt_meta_stringdata_EmpInfo[] = {
     "EmpInfo\0\0on_pushButton_clicked()\0"
     "on_pushButton_2_clicked()\0"
+    "on_pushButton_3_clicked()\0"
 };
 
 const QMetaObject EmpInfo::staticMetaObject = {
@@ -71,11 +73,12 @@ int EmpInfo::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
         switch (_id) {
-        case 0: on_pushButton_clicked(); break;
+        //case 0: on_pushButton_clicked(); break;
         case 1: on_pushButton_2_clicked(); break;
+        case 2: on_pushButton_3_clicked(); break;
         default: ;
         }
-        _id -= 2;
+        _id -= 3;
     }
     return _id;
 }

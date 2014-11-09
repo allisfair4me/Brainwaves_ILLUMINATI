@@ -4,7 +4,7 @@
 #
 #-------------------------------------------------
 
-QT       += core gui
+QT       += core gui sql
 
 TARGET = TrainingCentral
 TEMPLATE = app
@@ -19,6 +19,12 @@ HEADERS  += mainwindow.h \
 
 FORMS    += mainwindow.ui \
     empinfo.ui
+
+
+
+
+
+
 
 
 

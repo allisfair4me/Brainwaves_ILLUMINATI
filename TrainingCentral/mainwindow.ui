@@ -44,7 +44,7 @@ p, li { white-space: pre-wrap; }
      <item>
       <widget class="QLabel" name="label_2">
        <property name="text">
-        <string>Username:</string>
+        <string>EmployeeID</string>
        </property>
       </widget>
      </item>
@@ -74,6 +74,9 @@ p, li { white-space: pre-wrap; }
       <widget class="QLineEdit" name="lineEdit_2">
        <property name="enabled">
         <bool>false</bool>
+       </property>
+       <property name="echoMode">
+        <enum>QLineEdit::Password</enum>
        </property>
       </widget>
      </item>

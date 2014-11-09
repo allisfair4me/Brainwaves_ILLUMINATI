@@ -1,6 +1,7 @@
 #ifndef MAINWINDOW_H
 #define MAINWINDOW_H
 
+
 #include <QMainWindow>
 #include "empinfo.h"
 
@@ -14,6 +15,10 @@ class MainWindow : public QMainWindow
 
 public:
     explicit MainWindow(QWidget *parent = 0);
+    QSqlDatabase mydb;void connClose()
+    {
+        mydb.close();
+    }
     ~MainWindow();
 
 private slots:
@@ -23,8 +28,13 @@ private slots:
 
     void on_lineEdit_2_returnPressed();
 
+    void on_lineEdit_selectionChanged();
+
+    void on_lineEdit_cursorPositionChanged(int arg1, int arg2);
+
 private:
     Ui::MainWindow *ui;
+    //QSqlDatabase mydb;
 };
 
 #endif // MAINWINDOW_H

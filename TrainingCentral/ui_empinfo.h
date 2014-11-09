@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'empinfo.ui'
 **
-** Created: Sat 8. Nov 23:14:28 2014
+** Created: Sun 9. Nov 06:19:03 2014
 **      by: Qt User Interface Compiler version 4.7.4
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
@@ -52,7 +52,7 @@ public:
     QFrame *line;
     QWidget *horizontalLayoutWidget_6;
     QHBoxLayout *horizontalLayout_6;
-    QPushButton *pushButton;
+    QPushButton *pushButton_3;
     QPushButton *pushButton_2;
     QWidget *horizontalLayoutWidget_7;
     QHBoxLayout *horizontalLayout_7;
@@ -154,10 +154,10 @@ public:
         horizontalLayout_6 = new QHBoxLayout(horizontalLayoutWidget_6);
         horizontalLayout_6->setObjectName(QString::fromUtf8("horizontalLayout_6"));
         horizontalLayout_6->setContentsMargins(0, 0, 0, 0);
-        pushButton = new QPushButton(horizontalLayoutWidget_6);
-        pushButton->setObjectName(QString::fromUtf8("pushButton"));
+        pushButton_3 = new QPushButton(horizontalLayoutWidget_6);
+        pushButton_3->setObjectName(QString::fromUtf8("pushButton_3"));
 
-        horizontalLayout_6->addWidget(pushButton);
+        horizontalLayout_6->addWidget(pushButton_3);
 
         pushButton_2 = new QPushButton(horizontalLayoutWidget_6);
         pushButton_2->setObjectName(QString::fromUtf8("pushButton_2"));
@@ -193,8 +193,8 @@ public:
         label_3->setText(QApplication::translate("EmpInfo", "Skill Sets:      ", 0, QApplication::UnicodeUTF8));
         label_4->setText(QApplication::translate("EmpInfo", "Department:", 0, QApplication::UnicodeUTF8));
         label_5->setText(QApplication::translate("EmpInfo", "Project:       ", 0, QApplication::UnicodeUTF8));
-        pushButton->setText(QApplication::translate("EmpInfo", "Mandatory Training", 0, QApplication::UnicodeUTF8));
-        pushButton_2->setText(QApplication::translate("EmpInfo", "Supplementary Training", 0, QApplication::UnicodeUTF8));
+        pushButton_3->setText(QApplication::translate("EmpInfo", "Mandatory Trainings", 0, QApplication::UnicodeUTF8));
+        pushButton_2->setText(QApplication::translate("EmpInfo", "Supplementary Trainings", 0, QApplication::UnicodeUTF8));
     } // retranslateUi
 
 };

@@ -1,7 +1,7 @@
 /****************************************************************************
 ** Meta object code from reading C++ file 'mainwindow.h'
 **
-** Created: Sat 8. Nov 23:07:28 2014
+** Created: Sun 9. Nov 06:17:11 2014
 **      by: The Qt Meta Object Compiler version 62 (Qt 4.7.4)
 **
 ** WARNING! All changes made in this file will be lost!
@@ -23,7 +23,7 @@ static const uint qt_meta_data_MainWindow[] = {
        5,       // revision
        0,       // classname
        0,    0, // classinfo
-       3,   14, // methods
+       5,   14, // methods
        0,    0, // properties
        0,    0, // enums/sets
        0,    0, // constructors
@@ -34,6 +34,8 @@ static const uint qt_meta_data_MainWindow[] = {
       12,   11,   11,   11, 0x08,
       36,   11,   11,   11, 0x08,
       64,   11,   11,   11, 0x08,
+      94,   11,   11,   11, 0x08,
+     135,  125,   11,   11, 0x08,
 
        0        // eod
 };
@@ -42,6 +44,8 @@ static const char qt_meta_stringdata_MainWindow[] = {
     "MainWindow\0\0on_pushButton_clicked()\0"
     "on_lineEdit_returnPressed()\0"
     "on_lineEdit_2_returnPressed()\0"
+    "on_lineEdit_selectionChanged()\0arg1,arg2\0"
+    "on_lineEdit_cursorPositionChanged(int,int)\0"
 };
 
 const QMetaObject MainWindow::staticMetaObject = {
@@ -76,9 +80,11 @@ int MainWindow::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
         case 0: on_pushButton_clicked(); break;
         case 1: on_lineEdit_returnPressed(); break;
         case 2: on_lineEdit_2_returnPressed(); break;
+        //case 3: on_lineEdit_selectionChanged(); break;
+        //case 4: on_lineEdit_cursorPositionChanged((*reinterpret_cast< int(*)>(_a[1])),(*reinterpret_cast< int(*)>(_a[2]))); break;
         default: ;
         }
-        _id -= 3;
+        _id -= 5;
     }
     return _id;
 }

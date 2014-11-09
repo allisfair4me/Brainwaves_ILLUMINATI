@@ -151,16 +151,16 @@ p, li { white-space: pre-wrap; }
    </property>
    <layout class="QHBoxLayout" name="horizontalLayout_6">
     <item>
-     <widget class="QPushButton" name="pushButton">
+     <widget class="QPushButton" name="pushButton_3">
       <property name="text">
-       <string>Mandatory Training</string>
+       <string>Mandatory Trainings</string>
       </property>
      </widget>
     </item>
     <item>
      <widget class="QPushButton" name="pushButton_2">
       <property name="text">
-       <string>Supplementary Training</string>
+       <string>Supplementary Trainings</string>
       </property>
      </widget>
     </item>
